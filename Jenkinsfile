@@ -14,6 +14,8 @@ pipeline {
         stage('three'){
             steps{
                 echo 'I am a Devops engineer'
+                echo 'Poll SCM'
+                echo 'Successfully completed'
             }
         }
     }
